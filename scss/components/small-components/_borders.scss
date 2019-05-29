@@ -1,0 +1,9 @@
+//top border from menu
+.c-menu{
+  border-top: calrem(1px) solid $color--hr;
+}
+
+//separeted border (right) from menu
+.c-separeted-border{
+  border-right: calrem(1px) solid $color--hr;
+}

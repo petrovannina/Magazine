@@ -1,0 +1,99 @@
+
+//----------------------
+//  UTILITIES
+//----------------------
+@import "utilities/variables";
+@import "utilities/mixins";
+@import "utilities/functions";
+@import "utilities/helpers";
+
+@import "bootstrap/scss/bootstrap-grid";
+//mixin  BOOTSTRAP
+@import "bootstrap/scss/mixins/text-truncate";
+@import "bootstrap/scss/mixins/breakpoints";
+@import "bootstrap/scss/mixins/text-emphasis";
+@import "bootstrap/scss/mixins/hover";
+@import "bootstrap/scss/mixins/text-hide";
+@import "bootstrap/scss/mixins/alert";
+@import "bootstrap/scss/mixins/transition";
+@import "bootstrap/scss/mixins/border-radius";
+@import "bootstrap/scss/mixins/box-shadow";
+@import "bootstrap/scss/mixins/buttons";
+@import "bootstrap/scss/mixins/gradients";
+@import "bootstrap/scss/mixins/caret";
+@import "bootstrap/scss/mixins/nav-divider";
+
+//utilities  BOOTSTRAP
+@import "bootstrap/scss/utilities/spacing";
+@import "bootstrap/scss/utilities/text";
+
+//----------------------
+//  BOOTSTRAP file
+//----------------------
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/buttons";
+//@import "bootstrap/scss/modal";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/card";
+
+
+//----------------------
+//  BASE
+//----------------------
+@import "base/generalities";
+//@import "base/fonts";
+
+
+
+//----------------------
+//  COMPONENTS
+//----------------------
+//../big-components
+@import "components/big-components/header";
+@import "components/big-components/footer";
+@import "components/big-components/navbar";
+@import "components/big-components/menu";
+@import "components/big-components/article";
+
+//../small-components
+@import "components/small-components/buttons";
+@import "components/small-components/input";
+@import "components/small-components/burger-menu";
+@import "components/small-components/logo";
+@import "components/small-components/span";
+@import "components/small-components/borders";
+@import "components/small-components/cards";
+@import "components/small-components/images";
+@import "components/small-components/arrows";
+@import "components/small-components/symbols";
+@import "components/small-components/list";
+
+//../text
+@import "components/text/text";
+@import "components/text/links";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

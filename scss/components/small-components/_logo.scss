@@ -1,0 +1,40 @@
+.c-logo--img{
+  color: $black;
+
+
+  font-family: Lato;
+  font-size: calrem(27px);
+  font-size: 1.688rem;
+  font-weight: 900;
+
+  letter-spacing: -.02em;
+
+  line-height: 1;
+
+  //margin: 0;
+
+  text-transform: uppercase;
+  //margin-left: auto;
+  //margin-right: auto;
+}
+
+
+.c-logo--secondary{
+  color: $color-text--lighter;
+
+
+  font-family: Lato;
+  font-size: calrem(16px)!important;
+  font-size: 1.688rem;
+  font-weight: 900;
+
+  letter-spacing: -.02em;
+
+  line-height: 1;
+
+  //margin: 0;
+
+  text-transform: uppercase;
+  //margin-left: auto;
+  //margin-right: auto;
+}

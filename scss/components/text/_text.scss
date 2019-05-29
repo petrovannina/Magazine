@@ -1,0 +1,121 @@
+//14
+
+.c-text-small{
+  font-size: calrem(12px);
+  font-weight: $weight-bold;
+
+  text-transform: uppercase;
+  color: $color-text--secondary!important;
+
+  &:hover{
+    color: $color-text--light!important;
+    transition: color .2s ease-in-out,border .2s ease-in-out!important;
+  }
+}
+
+.c-text-small--static{
+  font-size: calrem(12px);
+  font-weight: $weight-bold;
+
+  text-transform: uppercase;
+  color: $color-text--light;
+}
+
+
+//    13
+
+.c-text-burger{
+  font-style: normal;
+  font-weight: 600;
+  font-family: Lato;
+  font-size: calrem(13px);
+}
+
+
+.c-subtitle-card--italic{
+  font-size: calrem(13px);
+  font-style: italic;
+
+  cursor: pointer;
+
+  text-transform: uppercase;
+  color: $color-text--light;
+
+  line-height: calrem(25px);
+
+}
+
+
+
+
+//    12
+.c-subtittle-article{
+  font-size: calrem(12px);
+  font-weight: $weight-bold;
+
+  line-height: calrem(14px);
+
+  color: $color-text--light;
+}
+
+.c-subtitle-card {
+  font-size: calrem(12px);
+  font-weight: $weight-bolder;
+
+  cursor: pointer;
+
+  text-transform: uppercase;
+  color: $color-text--light;
+}
+
+
+
+//???????
+//subtitle in cards
+.c-subtitle{
+  font-size: calrem(12px);
+
+  line-height: 25px;
+  font-style: italic;
+
+  color: $color-text--light;
+}
+
+
+//    16
+
+//c-tittle in footer  of ul list
+.c-tittle-ul-list{
+  font-size: calrem(16px);
+  font-weight: $weight-bold;
+
+  line-height: 1.4;
+  letter-spacing: calrem(-0.32px);
+
+  padding-bottom: calrem(13px);
+
+  color: $color-text-lighter--secondary;
+
+}
+
+.c-tittle-list-footer{
+  font-size: calrem(16px);
+  font-weight: $weight-bold;
+
+  color: $color-text--lighter;
+  letter-spacing: calrem(-0.32px);
+  line-height: calrem(22px);
+}
+
+
+.c-text-article{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+
+
+

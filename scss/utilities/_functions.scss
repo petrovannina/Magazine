@@ -1,0 +1,7 @@
+
+// return the rem value based on the px value that has been passed in
+//punei un nume mai mic gen rem sau crem dar nustiu daca o sa intelegi ca vine de la calculete c rem rem deci crem
+@function calrem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}

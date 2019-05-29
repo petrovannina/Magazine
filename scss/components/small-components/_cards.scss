@@ -1,0 +1,46 @@
+.c-card--primary:first-child{
+  background-image: url("../img/card-primary-img.jpg");
+  background-size: 100% 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: calrem(300px);
+}
+
+.card-text{
+  display: inline-flex;
+  flex-direction: column;
+
+  height: 100%;
+  width: 100%;
+}
+
+.c-card--primary:last-child{
+  background-image: url("../img/card-primary-img2.jpg");
+  background-size: 100% 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: calrem(300px);
+}
+.card-img-top{
+  height: calrem(225px);
+}
+
+.card-img-bottom{
+  margin-top: calrem(-24px)!important;
+
+  padding-left: calrem(40px);
+}
+
+.card-footer{
+  display: flex;
+  justify-content: space-between;
+
+  border: none;
+  background-color: transparent!important;
+
+  margin-top: calrem(100px)!important;
+}

@@ -1,0 +1,56 @@
+
+@mixin c-title--big($font:calrem(60px), $color:$white){
+  font-size: $font;
+  color: $color;
+}
+
+@mixin c-tittle( $font:calrem(48px), $color:$white ){
+  font-size: $font;
+  color: $color;
+}
+
+@mixin c-subtittle( $font:calrem(40px), $color:$white){
+  font-size: $font;
+  color: $color;
+}
+
+
+
+
+
+@mixin c-text--bigger($font:calrem(24px), $color:$white){
+  font-size: $font;
+  color: $color;
+}
+
+@mixin c-text--big($font:calrem(22px), $color:$white){
+  font-size: $font;
+  color: $color;
+}
+
+@mixin c-text($font:calrem(21px), $color:$color-text--dark){
+  font-size: $font;
+  color: $color;
+}
+
+@mixin c-subtext($font:calrem(20px), $color:$white){
+  font-size: $font;
+  color: $color;
+}
+
+
+
+
+
+
+@mixin c-paragraf-big($font:calrem(18px), $color:$white){
+  font-size: $font;
+  color: $color;
+}
+
+
+@mixin c-paragraf($font:calrem(16px), $color:$white, $weight:normal){
+  font-size: $font;
+  color: $color;
+  font-weight: $weight;
+}

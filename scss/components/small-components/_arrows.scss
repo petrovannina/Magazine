@@ -1,0 +1,23 @@
+//I tried to put an image with the arrow (didn't find one with the size good)
+//.c-arrow-right{
+//  :before{
+//    content: '';
+//
+//    background-image: url("../img/arrow-right.jpg");
+//    background-repeat: no-repeat;
+//    background-position: center;
+//
+//    width: calrem(12px);
+//    height: calrem(12px);
+//
+//    display: flex;
+//
+//  }
+//}
+
+.c-arrow-right{
+  border: calrem(1px) solid $color-black;
+  border-radius: 50%;
+
+  padding: calrem(5px);
+}

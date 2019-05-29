@@ -1,0 +1,16 @@
+.fa-chevron-right{
+  padding: 0 calrem(5px);
+}
+
+.fa-sync{
+  padding-right: calrem(5px);
+}
+
+.fa-facebook-f,
+.fa-pinterest,
+.fa-twitter,
+.fa-instagram{
+  border: calrem(1.5px) solid $color-text--light;
+  border-radius: 50%;
+  padding: calrem(15px) calrem(15px);
+}

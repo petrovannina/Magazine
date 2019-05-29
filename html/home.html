@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Grid Bootstrap-->
+    <link type="text/css" rel="stylesheet" href="css/grid/bootstrap-grid.css">
+    <!--CSS-->
+    <link type="text/css" rel="stylesheet" href="../css/style.css">
+    <!--Icons from Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+    <!--&lt;!&ndash; CSS BOOTSTRAP&ndash;&gt;-->
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+    <!--&lt;!&ndash; JS BOOTSTRAP&ndash;&gt;-->
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>-->
+    <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+</head>
+
+<body>
+
+<!---------------------
+          BODY
+------------------------>
+<header>
+    <!-- LOGO-->
+    <div class="container-fluid my-4 c-logo">
+        <div class="row mx-auto">
+            <div class="mx-auto">
+                <!-- Logo text/img/icon etc-->
+                <span class="">
+                    <a class="c-logo--img text-center" href="home.html">Aquene</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!--MENU-->
+    <div class="container-fluid c-menu">
+        <div class="row ml-1">
+            <!-- Burger Menu-->
+            <div class="col-10 container  c-separeted-border py-2">
+                <!--Burger-->
+                <div class="d-flex c-burger-menu">
+                    <div class="c-burger ml-4 pr-4 pt-1" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                    <!--End Burger-->
+                    <!-- Text of Burger-->
+                    <div class="c-text-burger">
+                        <p>MENU</p>
+                    </div>
+                    <!--End of Text -->
+                </div>
+            </div>
+            <!--End Burger Menu-->
+
+            <!--Search Icon-->
+            <div class="c-search-icon col-2 py-2 ">
+                <i class="fas fa-search pl-4"></i>
+            </div>
+            <!--End Search Icon-->
+        </div>
+    </div>
+</header>
+
+
+<div class=" container-fluid c-primary-article">
+    <div class="row">
+        <!-- First article-->
+        <div class="col-12 c-card--primary p-3">
+            <div class="card-text px-3 py-3">
+                <div class="mt-auto">
+                    <span>
+                        <a class="c-link-colored">Lifestylle</a>
+                    </span>
+                </div>
+                <div class="ml-2">
+                    <span>
+                        <a class="c-link-dark">Fashion:The Essential Guide to Spring and Summer</a>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <a class="c-link-dark--secondary">--by taras dashkevych</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!--Second Article-->
+        <div class="col-12 c-card--primary p-3">
+            <div class="card-text px-3 py-3">
+                <div class="mt-auto">
+                    <span>
+                        <a class="c-link-colored">Telegram</a>
+                    </span>
+                </div>
+                <div class="ml-2">
+                    <span>
+                        <a class="c-link-dark--smaller">Who Takes your Photos if you Travel Solo?</a>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <a class="c-link-dark--secondary">-by taras dashkevych</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="c-article container-fluid">
+    <div class="row p-4 m-1">
+        <div class="col-12 c-article--child px-0 pb-4">
+            <img class="c-img-article" src="../img/article-first.jpg">
+            <div class="c-text-article ">
+                <span class="c-link-article">Traveling to These Cities is Getting More Expensive</span>
+                <span class="c-subtittle-article">-- by  taras Dashkevych</span>
+            </div>
+        </div>
+        <div class="col-12 c-article--child px-0 pb-4">
+            <img class="c-img-article" src="../img/article-second.jpg">
+            <div class="c-text-article">
+                <span class="c-link-article">Are You Not Washing Your Hair Enought?</span>
+                <span class="c-subtittle-article">-- by  taras Dashkevych</span>
+            </div>
+        </div>
+        <div class="col-12 c-article--child px-0">
+            <img class="c-img-article" src="../img/article-third.jpg">
+            <div class="c-text-article">
+                <span class="c-link-article">Busy Month of Concerts Coming to City Center</span>
+                <span class="c-subtittle-article">-- by  taras Dashkevych</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="cards container">
+    <div class="row">
+        <div class="col-12 px-0">
+            <img class="card-img-top" src="../img/img-card-1.png">
+            <div class="card-img-bottom">
+                <span>
+                    <a class="c-link-colored">Entertaiment</a>
+                </span>
+            </div>
+            <div class="card-body mx-4">
+                <span>
+                    <a class="c-link-card">TVSHOW:We'll double number of original series next year</a>
+                </span>
+                <div class="card-footer px-0">
+                    <div class="c-subtittle-text d-flex flex-column">
+                        <span class="c-subtitle-card">--by taras dashkevych</span>
+                        <span class="c-subtitle-card--italic">December 6,2016</span>
+                    </div>
+                    <div class="c-arrow">
+                        <span class="c-arrow-right">
+                            <i class="fas fa-chevron-right"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+
+        </div>
+        <div class="col-12">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+
+        </div>
+        <div class="col-12">
+
+        </div>
+        <div class="col-12">
+
+        </div>
+    </div>
+</div>
+
+
+<!---->
+<div class="c-secondary-article--older">
+    <div class="c-button-big">
+        <span>
+            <span><i class="fas fa-sync"></i></span>
+            <a class="c-text-button-big">older posts</a>
+        </span>
+    </div>
+</div>
+
+
+<footer>
+    <div class="c-top-bar px-4 py-2">
+        <div class="row ">
+            <div class="col d-flex flex-column">
+                <span class="c-logo--secondary py-2 mt-3">aquene</span>
+                <span class="c-subtittle-article">The late news around the world</span>
+            </div>
+            <div class="c-social-navigations-footer col d-flex my-3">
+                <i class="fab fa-facebook-f ml-auto"></i>
+                <i class="fab fa-twitter ml-1"></i>
+                <i class="fab fa-pinterest ml-1"></i>
+                <i class="fab fa-instagram ml-1"></i>
+            </div>
+        </div>
+    </div>
+    <div class="container c-list-footer px-4 py-2">
+        <div class="row mt-5">
+            <div class="col-6 c-arhives">
+                <ul class="c-list-child p-0">
+                    <li class="c-tittle-list-footer">
+                        <span>Archives</span>
+                    </li>
+                    <li class="c-list-item">
+                        <a class="c-list-item-link">February 2017</a>
+                    </li>
+                    <li class="c-list-item">
+                        <a class="c-list-item-link">December 2016</a>
+                    </li>
+                    <li class="c-list-item">
+                        <a class="c-list-item-link">November 2016</a>
+                    </li>
+                    <li class="c-list-item">
+                        <a class="c-list-item-link">February 2016</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 c-categories">
+                <ul class="c-list-child pl-2">
+                    <li class="c-tittle-list-footer">
+                        <span>Categories</span>
+                    </li>
+                    <li class="c-list-item">
+                        <a class="c-list-item-link">Entertaiment</a>
+                    </li >
+                    <li class="c-list-item">
+                        <a class="c-list-item-link">Lifestyle</a>
+                    </li>
+                    <li class="c-list-item">
+                        <a class="c-list-item-link">Stories</a>
+                    </li>
+                    <li class="c-list-item">
+                        <a class="c-list-item-link">Travelgram</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 c-helpful links pt-3">
+                <ul class="c-list-child p-0">
+                    <li class="c-tittle-list-footer">
+                        <span>Helpful links</span>
+                    </li>
+                    <li class="c-list-item">
+                        <a class="c-list-item-link">Galleries</a>
+                    </li>
+                    <li class="c-list-item">
+                        <a class="c-list-item-link">Typography</a>
+                    </li>
+                    <li class="c-list-item">
+                        <a class="c-list-item-link">Embed Video</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 c-recent-posts pt-3">
+                <ul class="c-list-child pl-2">
+                    <li class="c-tittle-list-footer">
+                        <span>Recent Posts</span>
+                    </li>
+                    <li class="c-list-item">
+                        <a class="c-list-item-link">Fashion: The Essential Guide to Spring and Summer</a>
+                    </li>
+                    <li class="c-list-item">
+                        <a class="c-list-item-link">Who Takes your Photos if you Travel Solo?</a>
+                    </li>
+                    <li class="c-list-item">
+                        <a class="c-list-item-link">Traveling toThese Cities is Getting More Expensive</a>
+                    </li>
+                    <li class="c-list-item">
+                        <a class="c-list-item-link">Are you Not Washing Your Hair Enough?</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="c-bottom-bar px-4 py-3">
+        <nav class="c-footer-nav">
+            <ul class="d-flex c-list-child pl-0">
+                <li class="c-list-item-footer c-text-small">
+                    <a>Travelgram</a>
+                </li>
+                <li class="c-list-item-footer c-text-small">
+                    <a>Lifestyle</a>
+                </li>
+                <li class="c-text-small">
+                    <a>entertainment</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="c-site-info">
+<span class="c-text-small--static"><a class="c-text-small">proudly powered by wordpress proudly powered by wordpress</a>
+&#10072;  theme:aquene by
+<a class="c-text-small">themes harbor</a></span>
+        </div>
+    </div>
+</footer>
+
+
+<!--JS FUNCTION THAT NEED TO GO IN JS FILE-->
+<script>
+    function myFunction(x) {
+        x.classList.toggle("change");
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 13px;
+  height: 2px;
+  background-color: #333;
+  margin: 2px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-4px, 3px);
+  transform: rotate(-45deg) translate(-4px, 3px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-4px, -4px);
+  transform: rotate(45deg) translate(-4px, -4px);
+}
+
+.c-burger-menu{
+  height: calrem(25px);
+}
+
+.c-burger{
+  width: calrem(25px)!important;
+  height: calrem(20px)!important;
+}
+
+
+
+
+

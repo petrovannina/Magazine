@@ -1,0 +1,127 @@
+//this link is simple,the one in the footer with the efect on hover
+.c-link{
+  color: $color-white;
+
+  line-height: 1.55;
+  font-size: 14px;
+
+  outline-style: none;
+
+  text-align: left;
+
+  //vezi ce fac astea
+  //transition: color .2s ease-in-out,border .2s ease-in-out;
+  //transition-property: color, border;
+  //transition-duration: 0.2s, 0.2s;
+  //transition-timing-function: ease-in-out, ease-in-out;
+  //transition-delay: 0s, 0s;
+  &:hover{
+    color: $color-text--lighter;
+  }
+}
+
+
+//title from cards
+.c-link-card{
+  font-size: calrem(18px);
+
+  font-weight: $weight-bolder;
+  letter-spacing: calrem(-0.36px);
+
+  color: $color-black;
+
+  padding-bottom: calrem(2px);
+}
+
+// title of article
+.c-link-article{
+  font-size: calrem(16px);
+  font-weight: $weight-bolder;
+
+  line-height: calrem(22.4px);
+  letter-spacing: calrem(-0.36px);
+
+  color: $color-black;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+//is the link colord with background in red (especially in cards)
+.c-link-colored{
+  background-color: $color-link--active;
+  color: white!important;
+
+  display: inline-block;
+
+  font-weight: $weight-bold;
+  font-size: calrem(12px);
+
+  line-height: 1.1;
+
+  margin: calrem(2px)  calrem(2px) calrem(1px) calrem(0px);
+  padding: calrem(4px) calrem(8px);
+
+  text-transform: uppercase;
+}
+
+//is the link dark with background black(tittle in primary-card)
+.c-link-dark{
+  font-size: calrem(36px);
+  font-weight: $weight-bold;
+
+  background-color: $color-black;
+  color: $color-white!important;
+
+  //this space was in the design
+  letter-spacing: calrem(-0.72px);
+
+  line-height: 1.47;
+
+  padding: calrem(3px) calrem(8px);
+  margin: calrem(2px)  calrem(2px) calrem(0px) calrem(0px);
+
+  box-shadow: 7px 0 0 rgba(0,0,0,.85), -7px 0 0 rgba(0,0,0,.85);
+  &:focus {
+    outline: thin dotted;
+  }
+}
+
+.c-link-dark--smaller{
+  font-size: calrem(23px);
+  font-weight: $weight-bold;
+
+  background-color: $color-black;
+  color: $color-white!important;
+
+  //this space was in the design
+  letter-spacing: calrem(-0.72px);
+
+  line-height: 1.47;
+
+  padding: calrem(3px) calrem(8px);
+  margin: calrem(2px)  calrem(2px) calrem(0px) calrem(0px);
+
+  box-shadow: 7px 0 0 rgba(0,0,0,.85), -7px 0 0 rgba(0,0,0,.85);
+  &:focus {
+    outline: thin dotted;
+  }
+}
+
+
+//is the secondary with background black but color: grey( subtitle in primary card)
+.c-link-dark--secondary{
+  font-size: calrem(12px);
+  font-weight: $weight-bold;
+
+  color: $color-text--secondary!important;
+  background-color: $color-black;
+
+  line-height: 1.2;
+
+  text-transform: uppercase;
+
+  margin: calrem(2px)  calrem(2px) calrem(0px) calrem(0px);
+  padding: calrem(4px) calrem(8px);
+
+}
