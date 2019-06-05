@@ -3854,6 +3854,9 @@ footer {
   border-radius: 50%;
   padding: 0.3125rem; }
 
+.c-arrow {
+  margin-left: 0.0625rem; }
+
 .fa-chevron-right {
   padding: 0 0.3125rem; }
 
@@ -3901,6 +3904,23 @@ footer {
   position: relative;
   top: 0.1875rem; }
 
+@media only screen and (min-width: 995px) {
+  .c-list-footer {
+    display: flex !important;
+    flex-direction: row !important; }
+    .c-list-footer .row {
+      width: 50%; }
+    .c-list-footer .row:last-child {
+      margin-top: 3rem; }
+    .c-list-footer .c-categories .c-list-child {
+      border-left: 0.03125rem solid #757575;
+      padding-left: 1.5625rem !important; }
+    .c-list-footer .c-helpful .c-list-child {
+      border-left: 0.03125rem solid #757575;
+      padding-left: 1.5625rem !important; }
+    .c-list-footer .c-recent-posts .c-list-child {
+      border-left: 0.03125rem solid #757575;
+      padding-left: 1.5625rem !important; } }
 .c-text-small {
   font-size: 0.75rem;
   font-weight: 700;
