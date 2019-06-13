@@ -68,6 +68,11 @@
       margin-top: calrem(48px);
     }
 
+    // the left-border height(to be the same) of the list in footer
+    .c-list-child{
+      height: calrem(100px);
+    }
+    //add the left-border of the list in the footer
     .c-categories {
       .c-list-child{
         border-left: calrem(0.5px) solid $color-text--light;

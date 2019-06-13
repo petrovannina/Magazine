@@ -3912,6 +3912,8 @@ footer {
       width: 50%; }
     .c-list-footer .row:last-child {
       margin-top: 3rem; }
+    .c-list-footer .c-list-child {
+      height: 6.25rem; }
     .c-list-footer .c-categories .c-list-child {
       border-left: 0.03125rem solid #757575;
       padding-left: 1.5625rem !important; }
