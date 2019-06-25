@@ -52,3 +52,48 @@
 
   }
 }
+
+
+// put the two row in a single line
+//not working
+@media only screen and (min-width: 995px) {
+  .c-list-footer {
+    display: flex!important;
+    flex-direction: row!important;
+
+    .row{
+      width: 50%;
+    }
+    .row:last-child{
+      margin-top: calrem(48px);
+    }
+
+    // the left-border height(to be the same) of the list in footer
+    .c-list-child{
+      height: calrem(100px);
+    }
+    //add the left-border of the list in the footer
+    .c-categories {
+      .c-list-child{
+        border-left: calrem(0.5px) solid $color-text--light;
+
+        padding-left: calrem(25px) !important;
+      }
+    }
+    .c-helpful{
+      .c-list-child{
+        border-left: calrem(0.5px) solid $color-text--light;
+
+        padding-left: calrem(25px) !important;
+      }
+    }
+    .c-recent-posts{
+      .c-list-child{
+        //width: calrem(450px)!important;
+        border-left: calrem(0.5px) solid $color-text--light;
+
+        padding-left: calrem(25px) !important;
+      }
+    }
+  }
+}
