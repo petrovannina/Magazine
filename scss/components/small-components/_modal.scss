@@ -1,0 +1,38 @@
+.fade.show{
+  opacity: 0px!important;
+  background: transparent!important;
+}
+
+.modal-header{
+  border-bottom: none;
+}
+
+.modal-body{
+  margin: 0 auto;
+}
+
+
+.modal-input{
+  border: none;
+  border-bottom: 1px solid grey;
+
+  color: grey;
+}
+
+.modal-content{
+  width: 95%!important;
+
+  position: fixed;
+  top: calrem(15px);
+  left: calrem(40px);
+  right: calrem(40px);
+  bottom: calrem(15px);
+
+  opacity: 0.97;
+  border: none;
+  border-radius: 0;
+
+  -webkit-box-shadow: 14px 15px 39px 18px rgba(166,161,166,0.77);
+  -moz-box-shadow: 14px 15px 39px 18px rgba(166,161,166,0.77);
+  box-shadow: 14px 15px 39px 18px rgba(166,161,166,0.77);
+}
