@@ -1,11 +1,21 @@
+
+@media only screen and (min-width: 950px){
+  .c-card--primary:first-child,
+  .c-card--primary:last-child{
+    height: calrem(500px);
+    overflow: hidden;
+    border: red 1px solid;
+  }
+}
+
 .c-card--primary:first-child{
   background-image: url("../img/card-primary-img.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
 
   width: 100%;
-  height: calrem(300px);
+  height: calrem(400px);
 }
 
 .card-text{
@@ -23,11 +33,14 @@
   background-repeat: no-repeat;
 
   width: 100%;
-  height: calrem(300px);
+  height: calrem(400px);
 }
+
+
 .card-img-top{
   height: calrem(225px);
 }
+
 
 .card-img-bottom{
   margin-top: calrem(-24px)!important;

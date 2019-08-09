@@ -6,11 +6,24 @@
   padding-right: calrem(5px);
 }
 
-.fa-facebook-f,
-.fa-pinterest,
-.fa-twitter,
-.fa-instagram{
+.c-social-navigations-footer .fab{
   border: calrem(1.5px) solid $color-text--light;
   border-radius: 50%;
   padding: calrem(15px) calrem(15px);
+}
+
+.c-social-navigations {
+  padding-right: calrem(30px);
+
+  display: flex;
+  align-items: center;
+  .fab{
+    padding-left: calrem(20px);
+  }
+}
+
+@media screen and (max-width: 1040px){
+  .c-social-navigations{
+    display: none;
+  }
 }

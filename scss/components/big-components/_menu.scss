@@ -1,3 +1,32 @@
 .c-menu{
   width: 100%;
 }
+
+//top border from menu
+.c-menu{
+  border-top: calrem(1px) solid $color--hr;
+}
+
+.c-submenu{
+  display: flex;
+}
+
+.c-submeniu-item{
+  list-style: none;
+  padding: 0 calrem(5px);
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1040px) {
+  .c-submenu{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .c-menu{
+    .row{
+      float: right;
+    }
+  }
+}

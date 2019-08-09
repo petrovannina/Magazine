@@ -3,6 +3,12 @@
 <head>
     <!--Grid Bootstrap-->
     <link type="text/css" rel="stylesheet" href="css/grid/bootstrap-grid.css">
+    <!--js Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Css Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--CSS-->
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <!--Icons from Font Awesome-->
@@ -26,14 +32,32 @@
 <header>
     <!-- LOGO-->
     <div class="container-fluid my-4 c-logo">
-        <div class="row mx-auto">
-            <div class="mx-auto">
+        <!--<div class="row mx-auto">-->
+            <!--<div class="mx-auto">-->
                 <!-- Logo text/img/icon etc-->
                 <span class="">
                     <a class="c-logo--img text-center" href="index.html">Aquene</a>
                 </span>
+        <ul class="c-submenu">
+            <li class="c-submeniu-item">Home</li>
+            <li class="c-submeniu-item">Lifestyle</li>
+            <li class="c-submeniu-item">Entertaiment</li>
+            <li class="c-submeniu-item">Travelgram</li>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Features
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Typography</a>
+                    <a class="dropdown-item" href="#">Galleries</a>
+                    <a class="dropdown-item" href="#">Comments</a>
+                    <a class="dropdown-item" href="#">Image Alignment</a>
+                    <a class="dropdown-item" href="#">Embed Video</a>
+                </div>
             </div>
-        </div>
+        </ul>
+            <!--</div>-->
+        <!--</div>-->
     </div>
     <!--MENU-->
     <div class="container-fluid c-menu">
@@ -42,7 +66,7 @@
             <div class="col-10 container  c-separeted-border py-2">
                 <!--Burger-->
                 <div class="d-flex c-burger-menu">
-                    <div class="c-burger ml-4 pr-4 pt-1" onclick="myFunction(this)">
+                    <div class="c-burger ml-4 pr-4 pt-1">
                         <div class="bar1"></div>
                         <div class="bar2"></div>
                         <div class="bar3"></div>
@@ -57,11 +81,38 @@
             </div>
             <!--End Burger Menu-->
 
+            <div class="c-social-navigations">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
             <!--Search Icon-->
             <div class="c-search-icon col-2 py-2 ">
-                <i class="fas fa-search pl-4"></i>
+                <a><i class="fas fa-search pl-4" data-toggle="modal" data-target="#exampleModal"></i></a>
             </div>
             <!--End Search Icon-->
+            <!--<div class="c-search-container">-->
+                <!--<input>-->
+                <!--<i class="fas fa-search"></i>-->
+                <!--<p>this is my paragraf</p>-->
+            <!--</div>-->
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-position" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <input class="modal-input" value="Search This Website...">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </header>
@@ -343,10 +394,10 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid d-flex c-list-footer px-4 py-2 pb-md-5">
+    <div class="container-fluid c-list-footer px-4 py-2 pb-md-5">
         <div class="row mt-5 w-100">
-            <div class="col-5 col-md-3 c-arhives">
-                <ul class="c-list-child p-0">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 c-arhives">
+                <ul class="c-list-child">
                     <li class="c-tittle-list-footer">
                         <span>Archives</span>
                     </li>
@@ -364,8 +415,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-7 col-md-3 c-categories">
-                <ul class="c-list-child pl-2">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 c-categories">
+                <ul class="c-list-child ">
                     <li class="c-tittle-list-footer">
                         <span>Categories</span>
                     </li>
@@ -383,10 +434,10 @@
                     </li>
                 </ul>
             </div>
-        <!--</div>-->
-        <!--<diV class="row">-->
-            <div class="col-5 col-md-3 c-helpful links pt-3">
-                <ul class="c-list-child p-0">
+        </div>
+        <diV class="row ">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 c-helpful links pt-3">
+                <ul class="c-list-child">
                     <li class="c-tittle-list-footer">
                         <span>Helpful links</span>
                     </li>
@@ -401,8 +452,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-7 col-md-3 c-recent-posts pt-3">
-                <ul class="c-list-child pl-2">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-8 col-xl-auto c-recent-posts pt-3">
+                <ul class="c-list-child">
                     <li class="c-tittle-list-footer">
                         <span>Recent Posts</span>
                     </li>
@@ -445,12 +496,6 @@
     </div>
 </footer>
 
-
-<!--JS FUNCTION THAT NEED TO GO IN JS FILE-->
-<script>
-    function myFunction(x) {
-        x.classList.toggle("change");
-    }
-</script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
