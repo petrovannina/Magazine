@@ -42,7 +42,11 @@
   letter-spacing: calrem(-0.36px);
 
   color: $color-black;
+
+  padding-right: calrem(20px);
+  padding-bottom: calrem(5px);
   &:hover{
+
     text-decoration: underline;
   }
 }

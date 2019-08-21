@@ -1,5 +1,6 @@
 .c-list-child{
   list-style: none;
+
 }
 
 .c-list-item{
@@ -61,10 +62,11 @@
     display: flex!important;
     flex-direction: row!important;
 
-    .row{
-      width: 50%;
+    .row:first-child{
+      width: 40%;
     }
     .row:last-child{
+      width: 60%;
       margin-top: calrem(48px);
     }
 

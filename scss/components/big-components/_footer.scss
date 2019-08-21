@@ -10,3 +10,11 @@ footer{
 .c-bottom-bar{
   border-top: calrem(1px) solid $color-text--light ;
 }
+
+@media screen and (min-width: 770px)  {
+  .c-bottom-bar{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}

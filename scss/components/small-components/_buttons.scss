@@ -10,3 +10,30 @@
 
   padding: calrem(4px);
 }
+
+.dropdown-toggle{
+  background: transparent;
+  color: black;
+  border: none;
+  margin-top: -5px;
+  text-transform: uppercase;
+  &:focus, &:hover, &:active{
+    box-shadow: none!important;
+    color: #000!important;
+    background: transparent!important;
+    border: none!important;
+  }
+}
+
+.dropdown-menu{
+  background-color: black;
+}
+
+.dropdown-item{
+  background: black;
+  color: white;
+  &:hover{
+    background: black;
+    color: dimgrey;
+  }
+}
